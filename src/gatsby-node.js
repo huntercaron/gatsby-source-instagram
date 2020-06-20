@@ -80,6 +80,7 @@ function createUserNode(datum, params) {
     edge_follow: datum.edge_follow,
     profile_pic_url: datum.profile_pic_url,
     profile_pic_url_hd: datum.profile_pic_url_hd,
+    posts: datum.posts,
     username: datum.username,
     internal: {
       type: `InstaUserNode`,
