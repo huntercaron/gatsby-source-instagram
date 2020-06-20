@@ -59,6 +59,7 @@ export async function scrapingInstagramUser({ username }) {
         profile_pic_url: user.profile_pic_url,
         profile_pic_url_hd: user.profile_pic_url_hd,
         username: user.username,
+        posts: user.edge_owner_to_timeline_media.edges,
       }
       return infos
     })
